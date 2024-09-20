@@ -8,13 +8,18 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    padding-top: 150px; 
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+    z-index: 1000;
 }
 
 h1 {
